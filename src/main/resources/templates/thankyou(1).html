@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thank You</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You, <span th:text="${name}"></span>!</h1>
+        <p>We have received your message.</p>
+        <a href="/contact">Go Back</a>
+    </div>
+</body>
+</html>
